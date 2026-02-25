@@ -81,7 +81,7 @@ def query_ollama(prompt: str, model: str = OLLAMA_MODEL) -> str:
         "stream": False,
         "keep_alive": "10m", # keeps the model loaded in VRAM between calls
         "options": {
-            "temperature": float(os.environ.get("TEMPERATURE", "0.1")),
+            "temperature": float(TEMPERATURE),
             "num_predict": 1200, # Hard caps output so it doesn't ramble forever
             "num_ctx": 8192 # add a large context window to handle long prompts
         }
@@ -445,7 +445,7 @@ def main():
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     setup_logger(timestamp)
     
-    logger.info(f"--- Starting AI Enrichment Session [{run_timestamp}] ---")
+    logger.info(f"--- Starting AI Enrichment Session [{timestamp}] ---")
 
     if not os.path.exists(LIBRARY_PATH):
         logger.error(f"CRITICAL: Input file not found at {LIBRARY_PATH}")
