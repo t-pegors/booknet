@@ -21,7 +21,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from utils.goodreads_csv_extractor import Book, GoogleBooksData
+from pipeline.goodreads_csv_extractor import Book, GoogleBooksData
 from config import LIBRARY_PATH
 
 # We still use os.getenv here because API keys belong in the .env file, not config.py!

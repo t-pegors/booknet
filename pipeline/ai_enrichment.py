@@ -7,8 +7,8 @@ import re
 import sys
 from typing import Any
 
-from utils.goodreads_csv_extractor import Book
-from utils.category_loader import get_genres, get_spheres, get_spheres_with_descriptions, get_eras, get_era_definitions, get_all_location_leaves
+from pipeline.goodreads_csv_extractor import Book
+from pipeline.category_loader import get_genres, get_spheres, get_spheres_with_descriptions, get_eras, get_era_definitions, get_all_location_leaves
 
 #######################
 #### CONFIGURATION ####

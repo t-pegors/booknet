@@ -11,12 +11,12 @@ import sys
 
 # Import your module
 try:
-    from utils.goodreads_csv_extractor import main as run_goodreads
-    from utils.googlebooks_enhancer import main as run_google_fetcher
-    from utils.goodreads_scraper import main as run_goodreads_scraper
-    from utils.ai_enrichment import main as run_ai_enrichment
+    from pipeline.goodreads_csv_extractor import main as run_goodreads
+    from pipeline.googlebooks_enhancer import main as run_google_fetcher
+    from pipeline.goodreads_scraper import main as run_goodreads_scraper
+    from pipeline.ai_enrichment import main as run_ai_enrichment
 except ImportError as e:
-    print(f"CRITICAL ERROR: Could not import modules. Is the 'utils' folder missing an __init__.py? \nError: {e}")
+    print(f"CRITICAL ERROR: Could not import modules. Is the 'pipeline' folder missing an __init__.py? \nError: {e}")
     sys.exit(1)
 
 # Setup central logging
