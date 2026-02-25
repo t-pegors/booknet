@@ -271,7 +271,8 @@ def row_to_book(row: pd.Series) -> Book:
         spoiler=get_str(row, 'Spoiler'),
         private_notes=get_str(row, 'Private Notes'),
         read_count=get_int(row, 'Read Count'),
-        owned_copies=get_int(row, 'Owned Copies')
+        owned_copies=get_int(row, 'Owned Copies'),
+        description=""
     )
 
     # Wrap it in the main Book container
@@ -294,6 +295,9 @@ def merge_books(new_books: List[Book], existing_books: List[Book]) -> List[Book]
             # === MERGE STRATEGY ===
             existing_book = existing_map[book_id]
             # 1. Update Goodreads Data
+            # If the existing book has a description (because this comes from the scaper, not CSV) but the new CSV data doesn't, keep the old one.
+            if existing_book.goodreads.description and not new_book.goodreads.description:
+                new_book.goodreads.description = existing_book.goodreads.description
             existing_book.goodreads = new_book.goodreads
             # 2. Keep Google/LLM Data (implicitly preserved)
             merged_list.append(existing_book)

@@ -6,8 +6,8 @@ import pandas as pd
 import webbrowser
 from datetime import datetime
 from dotenv import load_dotenv
-from utils.goodreads_csv_extractor import Book
-from utils.ai_enrichment import setup_logger, enrich_book
+from pipeline.goodreads_csv_extractor import Book
+from pipeline.ai_enrichment import setup_logger, enrich_book
 
 
 # --- CONFIG ---

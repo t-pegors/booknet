@@ -516,5 +516,5 @@ Gemini assisted in:
 * Project planning and draft code generation
 * Streamlit dashboard designs
 * Brainstorming and problem-solving, especially related to book classification labels and hierarchies
-* README documentation generation
+* README documentation and image generation
 

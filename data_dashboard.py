@@ -5,11 +5,11 @@ import os
 import time
 from typing import List, Any
 
-from utils.goodreads_csv_extractor import main as run_goodreads_import, Book
-from utils.googlebooks_enhancer import process_books as run_google_fetch
-from utils.ai_enrichment import process_books as run_ai_enrichment
-from utils.goodreads_scraper import process_books as run_goodreads_scrape
-from utils.category_loader import get_genres, get_spheres, get_eras, get_all_location_leaves
+from pipeline.goodreads_csv_extractor import main as run_goodreads_import, Book
+from pipeline.googlebooks_enhancer import process_books as run_google_fetch
+from pipeline.ai_enrichment import process_books as run_ai_enrichment
+from pipeline.goodreads_scraper import process_books as run_goodreads_scrape
+from pipeline.category_loader import get_genres, get_spheres, get_eras, get_all_location_leaves
 from config import LIBRARY_PATH, OLLAMA_MODEL
 
 # --- CONFIGURATION ---
@@ -57,10 +57,10 @@ COLUMN_CONFIGS = {
 
 # --- IMPORT DATA STRUCTURES ---
 try:
-    from utils.goodreads_csv_extractor import Book
+    from pipeline.goodreads_csv_extractor import Book
 except ImportError:
     import sys
-    sys.path.append('utils')
+    sys.path.append('pipeline')
     from goodreads_csv_extractor import Book
 
 # --- HELPER FUNCTIONS ---

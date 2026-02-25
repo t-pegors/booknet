@@ -19,7 +19,7 @@ project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.insert(0, project_root)
 
-from utils.goodreads_csv_extractor import Book
+from pipeline.goodreads_csv_extractor import Book
 from config import LIBRARY_PATH
 
 logger = logging.getLogger("Goodreads_Scraper")
@@ -110,6 +110,8 @@ def process_books(library: list[Book], force_update: bool = False, progress_call
     Scrapes Goodreads for descriptions.
     Only targets books that have NO description from Google AND NO description from Goodreads.
     """
+
+    
     needs_update = [
         b for b in library 
         if (not getattr(b.goodreads, 'description', None) and not b.google.description) or force_update
@@ -130,7 +132,7 @@ def process_books(library: list[Book], force_update: bool = False, progress_call
             
             if progress_callback:
                 progress_callback(i, len(library), book)
-
+    
 def main():
     """CLI WRAPPER: Handles disk I/O and runs the scraper."""
     
