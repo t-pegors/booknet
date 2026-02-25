@@ -1,0 +1,22 @@
+# Python environment
+__pycache__/
+*.pyc
+venv/
+env/
+.env
+
+# AI Evaluation Outputs & Logs
+config/
+logs/
+data/backup/
+data/processed/golden_dataset.json
+data/processed/my_library.json
+data/evals/*.json
+data/evals/*.html
+# records
+archive/
+
+#
+test_notebook.ipynb
+TO-DO.txt
+eval_notes.txt

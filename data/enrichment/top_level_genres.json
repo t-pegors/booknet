@@ -1,0 +1,28 @@
+{
+    "Fiction": [
+        "Fantasy",
+        "Science Fiction",
+        "Horror",
+        "Thriller & Suspense",
+        "Mystery & Crime",
+        "Historical Fiction",
+        "Literary Fiction",
+        "Contemporary Fiction",
+        "Young Adult",
+        "Children's",
+        "Graphic Novel"
+    ],
+    "Non-fiction": [
+        "Biography & Memoir",
+        "History",
+        "Science & Nature",
+        "Technology",
+        "Social Sciences & Medicine",
+        "Politics & Current Events",
+        "Philosophy & Religion",
+        "Travel & Adventure",
+        "True Crime",
+        "Arts & Culture",
+        "Reference & Education"
+    ]
+}

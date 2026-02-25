@@ -1,0 +1,36 @@
+{
+    "Western World": {
+        "Ancient & Classical": ["Bronze Age", "Ancient Greece", "Roman Republic", "Roman Empire", "Biblical Times", "The Trojan War", "Dark Ages"],
+        "Medieval & Renaissance": ["Viking Age", "The Crusades", "High Middle Ages", "The Black Death", "Tudor England", "Italian Renaissance", "The Reformation", "Elizabethan Era"],
+        "Age of Empire & Industry": ["American Revolution", "French Revolution", "Napoleonic Wars", "Regency Era", "Industrial Revolution", "Victorian Era", "American Civil War", "The Wild West", "Gilded Age"],
+        "Modern Era": ["World War I", "Russian Revolution", "The Roaring Twenties", "The Great Depression", "World War II", "The Holocaust", "Post-War Boom", "The Cold War", "The Sixties", "Civil Rights Era", "Vietnam War Era", "The Thatcher/Reagan Years"],
+        "Contemporary": ["The Nineties", "Post-9/11", "Social Media Age", "The Great Recession", "COVID-19 Era", "Current Day"]
+    },
+    "East Asia": {
+        "Ancient & Classical": ["Warring States Period", "Qin Dynasty", "Han Dynasty", "Three Kingdoms", "Yayoi Period (Japan)", "Ancient Korea"],
+        "Imperial Golden Age": ["Tang Dynasty", "Song Dynasty", "Heian Period (Japan)", "Genpei War", "Mongol Invasions", "Khmer Empire (Angkor)"],
+        "Late Imperial / Shogunate": ["Ming Dynasty", "Qing Dynasty", "Sengoku Period", "Edo Period (Japan)", "Meiji Restoration", "Majapahit Empire"],
+        "Revolution & Modernization": ["Republican China", "Japanese Empire / WWII", "Chinese Civil War", "Cultural Revolution", "Korean War", "Tiananmen Era"],
+        "Contemporary": ["Modern Tokyo", "Modern Beijing", "The Asian Century", "K-Pop Era", "Current Day"]
+    },
+    "Middle East & South Asia": {
+        "Ancient Civilizations": ["Ancient Egypt", "Mesopotamia", "Babylon", "Vedic India", "Persian Empire", "Achaemenid Empire", "Mauryan Empire"],
+        "The Golden Age": ["Rise of Islam", "Islamic Golden Age", "Gupta Empire", "Chola Dynasty", "Sassanid Empire"],
+        "Gunpowder Empires": ["Ottoman Empire", "Safavid Persia", "Mughal Empire"],
+        "Colonialism & Independence": ["British Raj", "The Great Game", "Partition of India", "Arab Nationalism", "Iranian Revolution"],
+        "Contemporary": ["Gulf Wars", "Arab Spring", "Modern India", "Current Day"]
+    },
+    "Global South & Indigenous": {
+        "Ancient Civilizations": ["Ancient Egypt", "Kingdom of Kush (Nubia)", "Land of Punt", "Nok Culture", "Aksumite Empire", "Bantu Expansion", "Carthage", "Olmec Civilization", "Maya (Classic Period)", "Teotihuacan", "Nazca Lines"],
+        "Classical Empires": ["Ghana Empire", "Mali Empire", "Songhai Empire", "Great Zimbabwe", "Kingdom of Kongo", "Benin Empire", "Aztec Empire", "Inca Empire", "Mississippian Culture", "Iroquois Confederacy"],
+        "Colonial Era": ["Conquest of the Americas", "Transatlantic Slave Trade", "Scramble for Africa", "American Frontier (Indigenous View)", "Belgian Congo"],
+        "Independence & Post-Colonial": ["African Independence Movements", "Apartheid Era", "Rwanda Genocide"],
+        "Contemporary": ["Modern Africa", "Indigenous Resurgence", "Global South Rising", "Current Day"]
+    },
+    "Cosmos & Otherworlds": {
+        "Near Future": ["Climate Crisis", "AI Revolution", "Corporate Dystopia", "Mars Colonization", "Alien Contact"],
+        "Far Future / Space Age": ["Interstellar Travel", "Galactic Empire", "Post-Human", "Alien Civilizations"],
+        "Parallel / Hidden Earth": ["Hidden Magical Society", "Urban Fantasy", "Alternate History", "Portal Fantasy", "Steampunk / Gaslamp"],
+        "Abstract / Timeless": ["High Fantasy World", "Fairy Tale", "Mythology", "Surrealism", "Theoretical Physics", "Pure Philosophy", "Cosmology", "Abstract Concepts"]
+    }
+}

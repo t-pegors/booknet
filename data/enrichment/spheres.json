@@ -1,0 +1,17 @@
+{
+  "Western World": {
+    "description": "A historical arc tracing the rise of European civilization and its global expansion. This sphere encompasses the classical foundations of Ancient Greece and Rome, the fractured feudal systems of the Middle Ages, and the cultural explosion of the Renaissance. Crucially, it incorporates the geopolitical weight of Russia, anchoring the events of the Russian Revolution, the Soviet Union's role in the World Wars, and the Cold War firmly within the Western narrative. It follows the trajectory of Western powers through the Age of Empire, the Industrial Revolution, and the violent shifts of the 20th century, focusing on the evolution of democracy, conflict, and the Euro-Atlantic hegemony."
+  },
+  "East Asia": {
+    "description": "A timeline defined by the enduring legacy of the Sinosphere and its neighbors. This sphere captures the long continuity of Chinese dynastic rule—from the Warring States to the Qing—and the distinct cultural evolutions of Japan and Korea. It explicitly includes the thundering expansion of the Mongol Empire under Genghis Khan, positioning the Mongol Invasions as a pivotal chapter within the Imperial Golden Age that bridged the Song and Ming dynasties. Stories here traverse the philosophies of Confucianism, the martial codes of the Shogunate, and the explosive economic resurgence of the modern Asian Century."
+  },
+  "Middle East & South Asia": {
+    "description": "The crossroads of the ancient world and the cradle of diverse civilizations. This sphere spans the Fertile Crescent to the Indus Valley, covering the monumental history of Ancient Egypt, Mesopotamia, and Persia, alongside the Vedic, Indic, and classical empires of India. It acts as the primary anchor for the Islamic World, highlighting the intellectual brilliance of the Islamic Golden Age and the might of Gunpowder Empires like the Ottomans and Mughals. Narratives here are woven with the threads of the Silk Road, the birth of major world religions (Abrahamic and Dharmic), and the complex struggle for independence from colonial rule."
+  },
+  "Global South & Indigenous": {
+    "description": "A celebration of the vast, diverse civilizations that flourished outside the traditional Western and Asian power centers. This sphere encompasses the wealthy empires of Sub-Saharan Africa (such as Mali and Great Zimbabwe) and the complex societies of the pre-Columbian Americas (Maya, Aztec, Inca). It honors the oral histories, spiritual connections to the land, and trade networks of Indigenous peoples across continents. The timeline acknowledges the tragic interruption of the Colonial Era and the Transatlantic Slave Trade, while focusing on the resilience, independence movements, and cultural resurgence of Latin America and Africa."
+  },
+  "Cosmos & Otherworlds": {
+    "description": "Encompasses settings beyond standard Earth geography and history. For fiction, this includes deep space, futuristic sci-fi, parallel dimensions, urban fantasy, and entirely fabricated magical realms. For non-fiction, this is the designated sphere for theoretical sciences, cosmology, mathematics, and pure philosophy that exist outside of a specific human timeline or geographic location."
+  }
+}

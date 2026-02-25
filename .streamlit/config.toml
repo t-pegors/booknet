@@ -1,0 +1,9 @@
+[theme]
+primaryColor = "#4F8BF9"    # Keep the nice Azure blue
+backgroundColor = "#FFFFFF" # Pure white
+secondaryBackgroundColor = "#F0F2F6" # Very light gray for sidebar
+textColor = "#262730"       # Dark charcoal for high contrast
+font = "sans serif"          # Keeps the technical data-tool feel
+
+[ui]
+hideTopBar = true

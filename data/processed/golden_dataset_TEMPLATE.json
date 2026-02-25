@@ -1,0 +1,16 @@
+{
+  "Catherine the Great: Portrait of a Woman": {
+    "category": "Non-fiction",
+    "genre": "Biography & Memoir",
+    "sphere": "Western World",
+    "era": "Age of Empire & Industry",
+    "location": ["St. Petersburg", "Moscow"]
+  },
+  "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)": {
+    "category": "Fiction",
+    "genre": "Fantasy",
+    "sphere": "Cosmos & Otherworlds",
+    "era": "Parallel / Hidden Earth",
+    "location": ["London", "Highlands", "High Fantasy Realm"]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "Western Sphere": {
+    "UK & Ireland": ["London", "Dublin", "Edinburgh", "Oxford", "Cambridge", "Highlands", "Cotswolds", "Belfast"],
+    "Western Europe": ["Paris", "Berlin", "Amsterdam", "Brussels", "Vienna", "Munich", "Normandy", "Brittany", "The Rhine"],
+    "Northern Europe": ["Stockholm", "Oslo", "Copenhagen", "Helsinki", "Bergen", "Reykjavik", "Gotland"],
+    "Southern Europe": ["Madrid", "Lisbon", "Barcelona", "Granada", "Seville", "Provence", "French Riviera"],
+    "Italy & Rome": ["Rome", "Venice", "Florence", "Milan", "Naples", "Sicily", "Ravenna", "Genoa", "Vatican City"],
+    "Eastern Europe": ["Warsaw", "Prague", "Budapest", "Krakow", "Bucharest", "Sofia", "Transylvania"],
+    "The Balkans": ["Sarajevo", "Belgrade", "Dubrovnik (Ragusa)", "Tirana", "Mount Athos", "Thessaloniki (Salonika)"],
+    "Russia & Eurasia": ["Moscow", "St. Petersburg", "Kyiv", "Odessa", "Siberia", "Vladivostok", "Kazan", "Crimea"],
+    "North America": ["NYC", "Boston", "Washington DC", "Philadelphia", "New Orleans", "Chicago", "LA", "San Francisco", "Toronto", "Montreal"]
+  },
+  "East Asian Sphere": {
+    "China - Cities": ["Beijing", "Shanghai", "Nanjing", "Xi'an (Chang'an)", "Hangzhou", "Suzhou", "Guangzhou (Canton)", "Hong Kong", "Macau"],
+    "China - Regions": ["Tibet (Lhasa)", "Xinjiang (Kashgar)", "Yunnan", "Sichuan", "Dunhuang (Silk Road)", "Manchuria"],
+    "Japan": ["Tokyo (Edo)", "Kyoto (Heian-kyo)", "Nara", "Kamakura", "Osaka", "Nagasaki", "Hiroshima", "Hokkaido", "Okinawa"],
+    "Korea": ["Seoul", "Busan", "Pyongyang", "Gyeongju", "Kaesong", "Jeju Island"],
+    "Central Steppe": ["Mongolian Steppe", "Ulaanbaatar", "Karakorum", "Altai Mountains", "Gobi Desert"],
+    "Southeast Asia": ["Hanoi", "Hue", "Bangkok", "Ayutthaya", "Angkor/Siem Reap", "Singapore", "Java (Batavia)", "Bali", "Manila"]
+  },
+  "Middle East & South Asia": {
+    "Ottoman & Anatolian": ["Istanbul (Constantinople)", "Edirne (Adrianople)", "Bursa", "Izmir (Smyrna)", "Konya (Iconium)", "Amasya", "Trabzon (Trebizond)", "Erzurum", "Antalya"],
+    "The Levant": ["Jerusalem", "Damascus", "Beirut", "Aleppo", "Antioch (Antakya)", "Acre", "Jaffa", "Gaza", "Amman"],
+    "Mesopotamia & Iraq": ["Baghdad", "Mosul (Nineveh)", "Basra", "Samarra", "Babylon", "Ur"],
+    "Persianate World": ["Tehran", "Isfahan", "Shiraz", "Tabriz", "Mashhad", "Persepolis", "Yazd"],
+    "Silk Road (Central Asia)": ["Samarkand", "Bukhara", "Tashkent", "Khiva", "Herat", "Kabul", "Kandahar", "Merv"],
+    "Egypt & Arabia": ["Cairo", "Alexandria", "Luxor (Thebes)", "Mecca", "Medina", "Riyadh", "Jeddah", "Muscat", "Aden", "Dubai"],
+    "Indian Subcontinent": ["Delhi", "Mumbai", "Kolkata", "Varanasi", "Lahore", "Karachi", "Agra", "Jaipur", "Hampi", "Kashmir"]
+  },
+  "Africa & Indigenous": {
+    "Africa": ["Cameroon", "Nigeria", "Somalia", "Kenya", "Timbuktu", "Lagos", "Dakar", "Accra", "Nairobi", "Zanzibar", "Addis Ababa", "Cape Town", "Great Zimbabwe", "Mogadishu"],
+    "Americas (Indigenous)": ["Mexico City (Tenochtitlan)", "Cusco", "Machu Picchu", "Tikal", "Chichen Itza", "The Amazon"],
+    "Latin America": ["Havana", "Rio de Janeiro", "Buenos Aires", "Bogotá", "Santiago", "Patagonia"],
+    "Oceania": ["Sydney", "Melbourne", "Auckland", "Wellington", "Honolulu", "Fiji", "Tahiti", "Easter Island"]
+  },
+"The Cosmos & Otherworlds": {
+    "Space & Planetary": ["Mars", "The Moon", "Asteroid Belt", "Deep Space", "Exoplanet", "Earth Orbit"],
+    "Fictional Realms": ["High Fantasy Realm", "Cyberpunk City", "Dystopian Future", "Parallel Dimension", "Atlantis", "Mythological Realm"],
+    "Science & Medicine": ["The Human Body (Microscopic)", "The Brain / Neural Networks", "Quantum Realm", "Laboratory Setting", "Hospital/Medical Clinic", "Mathematical Space"],
+    "Philosophy & Religion": ["Monastery/Temple", "The Heavens/Afterlife", "The Void", "Abstract Thought Space", "Ecclesiastical Setting", "Ancient School of Philosophy"],
+    "Temporal & Global": ["The Future", "The Distant Past (Prehistoric)", "Global / Non-Specific", "Virtual Reality / Digital Space"]
+  }
+}
