@@ -13,6 +13,7 @@ data/processed/golden_dataset.json
 data/processed/my_library.json
 data/evals/*.json
 data/evals/*.html
+data/logs/*.log
 # records
 archive/
 

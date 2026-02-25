@@ -251,26 +251,41 @@ with tab1:
     st.subheader("2. Google Books Metadata")
     st.caption("Grabs all Google Books data associated with Goodreads books.")
     if st.button("Fetch Cover Image URLs, Descriptions, etc."):
+
+        # Calculate exactly how many books need work
+        to_process = [b for b in st.session_state.library if b.google.description or b.goodreads.description]
+        total_to_do = len(to_process)
+
+        if total_to_do == 0:
+            st.info("Google metadata is already complete!")
+            st.stop()
+
         # Setup empty UI elements for the callback to fill
         progress_bar = st.progress(0)
         status_text = st.empty()
         timer_text = st.empty()
         
-        # Start the clock
-        start_time = time.time()
-
+        # Track session-specific progress
+        session = {"count": 0, "start": time.time()}
+        
         def update_progress(index, total, book):
-            progress = (index + 1) / total
-            progress_bar.progress(progress)
+            session["count"] += 1
+            done = session["count"]
             
-            # --- TIMING LOGIC ---
-            elapsed_time = time.time() - start_time
-            books_done = index + 1
-            avg_time = elapsed_time / books_done
-            eta_seconds = avg_time * (total - books_done)
+            # Progress bar reflects the WORK remaining
+            progress_bar.progress(done / total_to_do)
             
-            elapsed_str = time.strftime('%H:%M:%S', time.gmtime(elapsed_time))
-            eta_str = time.strftime('%H:%M:%S', time.gmtime(eta_seconds))
+            # prevent division by zero
+            avg_time = elapsed / done if done > 0 else 0
+
+            # the average isn't reliable yet.
+            if done < 3:
+                eta_str = "--:--:--"
+            else:
+                eta_seconds = avg_time * (total_to_do - done)
+                eta_str = time.strftime('%H:%M:%S', time.gmtime(eta_seconds))
+
+            elapsed_str = time.strftime('%H:%M:%S', time.gmtime(elapsed))
             
             # Update UI
             status_text.text(f"Fetching: {book.goodreads.title}")
